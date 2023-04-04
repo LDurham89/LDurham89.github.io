@@ -56,7 +56,7 @@ properties further from the centre don't appear to show much of a pattern, with 
 around the North Beacon Hill area, where properties tend to be in the lower price bands).
 
 
-<img src="/assets/Boston_Map.png" alt="Prices Map">
+<img src="LDurham89.github.io/docs/assets/Boston_Map.png" alt="Prices Map">
 
 
 The map of Boston shows that the vast majority of listings are south of the Charles River, with a few properties showing up in the Cambridge district.
