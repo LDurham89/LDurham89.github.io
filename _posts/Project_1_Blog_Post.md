@@ -55,6 +55,7 @@ However, there doesn't appear to be much of a pattern beyond this. These central
 properties further from the centre don't appear to show much of a pattern, with properties on the edge of town being just as likely to be in the highest of lowest price bands (an exception to this is the in the bottom right of the map 
 around the North Beacon Hill area, where properties tend to be in the lower price bands).
 
+![Boston Map](/LDurham89.github.io/docs/assets/Boston_Map.png)
 
 The map of Boston shows that the vast majority of listings are south of the Charles River, with a few properties showing up in the Cambridge district.
 Unlike in Seattle we can see a really tight cluster of properties costing over $250 dollars per night. This cluster seems to centre on Back Bay and spills into surrounding areas. 
