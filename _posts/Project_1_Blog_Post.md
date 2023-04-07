@@ -47,7 +47,7 @@ Below are two figures showing the price bands and locations of listings in Seatt
 
 Firstly, let's consider the map of Seattle. 
 
-<img src="/docs/assets/Seattle_Map.png" alt="Seattle prices map">
+<img src="/docs/assets/Seattle_Map2.png" alt="Seattle prices map">
           
 In the centre of the map we have an empty space showing Lake Union and in the bottom left we have a separate cluster of properties that are in or around the North Admiral area.
 What stands out from this map? If we look at the district around Lake Union - especially those to the south - there appears to be a lot of properties in the $150 to $250 price range.
@@ -55,9 +55,7 @@ However, there doesn't appear to be much of a pattern beyond this. These central
 
 Let's see how this compares to Boston:
 
-
 <img src="/docs/assets/Boston_Map2.png" alt="Boston Prices Map">
-
 
 The map of Boston shows that the vast majority of listings are south of the Charles River, with a few properties showing up in the Cambridge district.
 Unlike in Seattle we can see a really tight cluster of properties costing over $250 dollars per night. This cluster seems to centre on Back Bay and spills into surrounding areas. 
