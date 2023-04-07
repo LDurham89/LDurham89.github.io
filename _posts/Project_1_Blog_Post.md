@@ -20,7 +20,7 @@ To answer our first question, let's look at average prices per night for stays i
 This sounds like quite a big difference and is one that could add up fast during a long stay. How can we explain this difference? To start off, we can compare the reviews that guests have left about their stays. To do this we took data on just over 151,000 reviews left on
 properties in Seattle and Boston. We can see that the most common words used for stays in each city were:
 
-TABLE
+<img src="/docs/assets/WordsTable.png" alt="words table"> 
 
 The top four words are almost the same for both cities! Guests in Boston are more likely to refer directly to the apartment itself in their review and are more likely to mention the location. Meanwhile guests at Seattle properties mentioned cleanliness and the host more often. 
 
@@ -48,6 +48,8 @@ Firstly, let's consider the map of Seattle.
 
 FIGURES
 
+<img src="/docs/assets/Seattle_Map.png" alt="Seattle prices map">
+          
 In the centre of the map we have an empty space showing Lake Union and in the bottom left we have a separate cluster of properties that are in or around the North Admiral area.
 What stands out from this map? If we look at the district around Lake Union - especially those to the south - there appears to be a lot of properties in the $150 to $250 price range.
 However, there doesn't appear to be much of a pattern beyond this. These central districts still have plenty of properties with prices that are either higher or lower than the $150-$250 range. Furthermore, if we look further outwards, it doesn't look like guests are paying more to be near the downtown, with properties further away from the city centre being just as likely to be in the highest or lowest price bands (an exception to this is the in the bottom right of the map around the North Beacon Hill area, where properties tend to be in the lower price bands).
