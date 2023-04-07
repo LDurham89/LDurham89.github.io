@@ -26,7 +26,7 @@ The top four words are almost the same for both cities! Guests in Boston are mor
 
 While the list of most common words tells us what guests were talking about, it doesn't tell us what they were saying. To be a bit more information we can look at the most common collections of words.
 
-TABLE
+<img src="/docs/assets/ReviewPhrases.png" alt="bigrams table">
 
 What does this tell us? Well, while the order of the phrases is different for each city, the phrases in question are the same! So while properties in Seattle might be more likely to be within walking distance of attractions, it looks like the actual experience of staying at an Airbnb in either city is quite similar.
 
@@ -46,8 +46,6 @@ Below are two figures showing the price bands and locations of listings in Seatt
 
 Firstly, let's consider the map of Seattle. 
 
-FIGURES
-
 <img src="/docs/assets/Seattle_Map.png" alt="Seattle prices map">
           
 In the centre of the map we have an empty space showing Lake Union and in the bottom left we have a separate cluster of properties that are in or around the North Admiral area.
@@ -55,6 +53,7 @@ What stands out from this map? If we look at the district around Lake Union - es
 However, there doesn't appear to be much of a pattern beyond this. These central districts still have plenty of properties with prices that are either higher or lower than the $150-$250 range. Furthermore, if we look further outwards, it doesn't look like guests are paying more to be near the downtown, with properties further away from the city centre being just as likely to be in the highest or lowest price bands (an exception to this is the in the bottom right of the map around the North Beacon Hill area, where properties tend to be in the lower price bands).
 
 Let's see how this compares to Boston:
+
 
 <img src="/docs/assets/Boston_Map.png" alt="Prices Map">
 
