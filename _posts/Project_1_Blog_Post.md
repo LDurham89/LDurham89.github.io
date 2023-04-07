@@ -32,7 +32,8 @@ What does this tell us? Well, while the order of the phrases is different for ea
 
 If that's the case then maybe answering the second two questions can shed some more light on the price difference.
 
-Q2 HERE
+Q2 HERE.
+
 To get a better idea of the factor affecting the price of Airbnb stays we're goimg to look at data giving us detail of the listed properties  on Airbnb during 2016.
 This data tells us a lot of detail about the properties, their amenities, the host and the area. With this we will run a model that will predict the price and use this to give us an idea of how much each factpor affects the price per night of Airbnb stays. One of the factors we've included in this model is a variable that just tells us if the property is in Boston or Seattle. This will tell us if there's a 'Boston effect' when other variables are held constant.
 
@@ -55,7 +56,7 @@ However, there doesn't appear to be much of a pattern beyond this. These central
 Let's see how this compares to Boston:
 
 
-<img src="/docs/assets/Boston_Map.png" alt="Prices Map">
+<img src="/docs/assets/Boston_Map2.png" alt="Boston Prices Map">
 
 
 The map of Boston shows that the vast majority of listings are south of the Charles River, with a few properties showing up in the Cambridge district.
