@@ -19,13 +19,13 @@ To answer our first question, let's look at average prices per night for stays i
 
 This sounds like quite a big difference and is one that could add up fast during a long stay. How can we explain this difference? To start off, we can look at the average ratings left on stays in the two cities, as we'd expect higher rated stays to fetch a higher price. The average rating for a stay in Seattle is 95%, which is actually higher than the Boaton average of 92%. To examine this further let's compare the reviews that guests left about their stays. By taking data on just over 151,000 reviews left on properties in Seattle and Boston we can compare the most common words and phrases to get an insight into any themes in reviews. We can see that the most common words used for stays in each city were:
 
-<img src="/docs/assets/WordsTable.png" alt="words table" width="500" height="450"> 
+<img src="/docs/assets/FinalCommonWords.png" alt="words table" width="500" height="450"> 
 
 The top four words are almost the same for both cities! Guests in Boston are more likely to refer directly to the apartment itself in their review and are more likely to mention the location. Meanwhile guests at Seattle properties mentioned cleanliness and the host more often. 
 
 While the list of most common words tells us what guests were talking about, we can get more information by looking at the msot common word pairs. Below we can see the most common pairs of words used in the reviews:
 
-<img src="/docs/assets/ReviewPhrases.png" alt="bigrams table" width="500" height="300">
+<img src="/docs/assets/FinalReviewPhrases.png" alt="bigrams table" width="500" height="300">
 
 What does this tell us? Well, while the order of the phrases is different for each city, the phrases in question are the same! So while properties in Seattle might be more likely to be within walking distance of attractions, it looks like the actual experience of staying at an Airbnb in either city is quite similar.
 
