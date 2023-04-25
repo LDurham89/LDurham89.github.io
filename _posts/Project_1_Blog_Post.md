@@ -17,7 +17,7 @@ In this post we're going to look at a few questions:
 
 To answer our first question, let's look at average prices per night for stays in Seattle and Boston. While an average night in Seattle costs $127, a stay in Boston will cost $173 on average.
 
-This sounds like quite a big difference and is one that could add up fast during a long stay. How can we explain this difference? To start off, we can look at the average ratings left on stays in the two cities, as we'd expect higher rated stays to fetch a higher price. The average rating for a stay in Seattle is 95%, which is actually higher than the Boaton average of 92%. To examine this further let's compare the reviews that guests left about their stays. By taking data on just over 151,000 reviews left on properties in Seattle and Boston we can compare the most common words and phrases to get an insight into any themes in reviews. We can see that the most common words used for stays in each city were:
+This sounds like quite a big difference and is one that could add up fast during a long stay. How can we explain this difference? To start off, we can look at the average ratings left on stays in the two cities, as we'd expect higher rated stays to fetch a higher price. The average rating for a stay in Seattle is 95%, which is actually higher than the Boston average of 92%. To examine this further let's compare the reviews that guests left about their stays. By taking data on just over 151,000 reviews left on properties in Seattle and Boston we can compare the most common words and phrases to get an insight into any themes in reviews. We can see that the most common words used for stays in each city were:
 
 <img src="/docs/assets/FinalCommonWords.png" alt="words table" width="500" height="450"> 
 
@@ -34,9 +34,9 @@ If that's the case then maybe answering the second two questions can shed some m
 To get a better idea of the factors affecting the price of Airbnb stays we're goimg to look at data giving us details of the listed properties during 2016.
 This data tells us a lot about the properties, their amenities, the host and the area. With this we will run a model that will predict the price and use this to give us an idea of how much each factor affects the price per night of Airbnb stays. One of the factors we've included in this model is a variable that just tells us if the property is in Boston or Seattle. This will tell us if there's a 'Boston effect' when other variables are held constant.
 
-So what do the results tell us? By and large the results are not surprising; bigger properties, where the guest gets the whole place to themselves, with lots of amenities and the host is a superhost can be predicted to be more expensive than other properties. The factors that made the biggest difference were... 
+So what do the results tell us? By and large the results are not surprising; bigger properties, where the guest gets the whole place to themselves, with lots of amenities and the host is a superhost can be predicted to be more expensive than other properties. The factors that made the biggest difference were the size of the property and type of property - with houses being cheaper (however, this might be due to location - something qwe'll look at shortly).
 
-Most interestingly for us is the finding that even with other factors accounted for, there is a difference between price in the two cities. This means that the exact same property would attract $40 per night more in Boston than it would in Seattle.
+Most interestingly for us is the finding that even with other factors accounted for, there is a difference between price in the two cities. This means that the exact same property would attract $30 per night more in Boston than it would in Seattle.
 
 
 So maybe the difference in price has something to do with the cities themselves. To explore this a bit, let's look at how prices differer across the two cities.
