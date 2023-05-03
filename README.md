@@ -105,4 +105,9 @@ Some particular mentions:
 I struggled to work with the 'amenities' column in the listings dataset as many of my attempts to find unique value from this columns resulted in impracticla formatting or unexpected punctuation appearing in variables that I created. The answer provided by Alex Martelli on the Stackoverflow post below was a massive help to extracting unique values correctly:
 https://stackoverflow.com/questions/952914/how-do-i-make-a-flat-list-out-of-a-list-of-lists
 
+My first attempts to remove automated reviews from the 'reviews' data were generally unsuccesful at first as I wasn't getting the results I wanted.
+This blog post from Bobby Hadz was very helpful - although the post seems to have been removed since:
+https://bobbyhadz.com/blog/python-remove-elements-from-list-that-contain-string/
+
+
 
