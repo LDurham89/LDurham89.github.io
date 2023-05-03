@@ -99,3 +99,10 @@ __Contact information:__ The maintainer of this project is me - Laurence Durham 
 
 __Necessary acknowledgments:__ While working on this project a few sources have been particularly helpful for getting around programming issues
 and fixing errors in my code. These include: the Knowledge section of the Udacity website, Udacity GPT and Stackoverflow.
+
+Some particular mentions:
+
+I struggled to work with the 'amenities' column in the listings dataset as many of my attempts to find unique value from this columns resulted in impracticla formatting or unexpected punctuation appearing in variables that I created. The answer provided by Alex Martelli on the Stackoverflow post below was a massive help to extracting unique values correctly:
+https://stackoverflow.com/questions/952914/how-do-i-make-a-flat-list-out-of-a-list-of-lists
+
+
