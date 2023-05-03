@@ -90,7 +90,12 @@ Once you have downloaded these, you will need to amend the cells where the data 
 As mentioned above, you will need to install Kaleidoscope if you want to use the Figure Factory for creating tables.
 You will also need to have nltk.punkt installed for the Natural Language Processing part of the project.
 
-__File descriptions:__ This repository only contains two files - this read.me and the jupyter notebook containing the analysis of the data. 
+__File descriptions:__ The main files of interest for this project are:
+- 'Udacity Airbnb Project.ipynb' which is the notebook containing the analysis. This can be found in the root of the directory
+- 
+
+
+read.me and the jupyter notebook containing the analysis of the data. 
 As noted previously, the data sets are available at the links above and can be saved to your own machine.
 
 The jupyter notebooks contains sections covering the main questions in turn. The only complpication is that Q1 is addressed in the same
