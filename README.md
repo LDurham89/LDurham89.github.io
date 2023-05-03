@@ -102,14 +102,15 @@ and fixing errors in my code. These include: the Knowledge section of the Udacit
 
 Some particular mentions:
 
-I struggled to work with the 'amenities' column in the listings dataset as many of my attempts to find unique value from this columns resulted in impracticla formatting or unexpected punctuation appearing in variables that I created. The answer provided by Alex Martelli on the Stackoverflow post below was a massive help to extracting unique values correctly:
+I struggled to work with the 'amenities' column in the listings dataset as many of my attempts to find unique value from this column resulted in impractical formatting or unexpected punctuation appearing in variables that I created. The answer provided by Alex Martelli on the Stackoverflow post below was a massive help to extracting unique values correctly into one long list:
 https://stackoverflow.com/questions/952914/how-do-i-make-a-flat-list-out-of-a-list-of-lists
 
 My first attempts to remove automated reviews from the 'reviews' data were generally unsuccesful at first as I wasn't getting the results I wanted.
 This blog post from Bobby Hadz was very helpful - although the post seems to have been removed since:
 https://bobbyhadz.com/blog/python-remove-elements-from-list-that-contain-string/
 
-I found it tricky to get figure to look the way I wanted in figure factory, so while I learned about the package in the Stackoverflow post below, Udacity GPT provided several suggestions about how to use the different parameters to get the output I wanted.
+I found it tricky to get figures to look the way I wanted in figure factory, so while I learned about the package in the Stackoverflow post below, Udacity GPT provided several suggestions about how to use the different parameters to get the output I wanted.
 https://stackoverflow.com/questions/66588116/why-does-the-title-text-argument-of-fig-update-layout-appear-not-to-be-worki
 
-
+Finally, I previously used regression methods and Variance Inflation Factors quite often in STATA. However, I had to look into how to use Variance Inflation Factors in python. I found the post below that introduced me to the statsmodels.stats.outliers_influence package. I also followed the implementation in the post quite closely as I could not find ways to improve upon it
+https://etav.github.io/python/vif_factor_python.html
