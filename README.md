@@ -109,5 +109,7 @@ My first attempts to remove automated reviews from the 'reviews' data were gener
 This blog post from Bobby Hadz was very helpful - although the post seems to have been removed since:
 https://bobbyhadz.com/blog/python-remove-elements-from-list-that-contain-string/
 
+I found it tricky to get figure to look the way I wanted in figure factory, so while I learned about the package in the Stackoverflow post below, Udacity GPT provided several suggestions about how to use the different parameters to get the output I wanted.
+https://stackoverflow.com/questions/66588116/why-does-the-title-text-argument-of-fig-update-layout-appear-not-to-be-worki
 
 
