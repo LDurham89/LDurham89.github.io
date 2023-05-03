@@ -13,7 +13,7 @@ For this project I chose to analyse data on Airbnb listings in Seattle and Bosto
 
 The Jupyter notebook presents the analysis of the data to answer these questions. You will be able to see how the data is loaded in and preprocessed
 for analysis, how new variables are made, visualisations made and analysis is conducted. The note book is organised so that you can see this process done separately 
-to answer each of the questions. The only complication here is that Q1 is addressed in the same section as Q4, as the same data preprocessing was required for each.  
+to answer each of the questions. The only caveat here is that Q1 is addressed in the same section as Q4, as the same data preprocessing was required for each.  
 
 __Summary of the results & issues with analysis:__ The analysis offered some interesting and in some cases unexpected findings. The data shows that there is a 
 significant difference in average price per night at Airbnb's in the two cities, with properties in Boston being around $50 more expensive. This is
@@ -24,7 +24,7 @@ suggested that written reviews are quite generic. The two tables in the blog sho
 identical - albeit with the words in slightly different orders. The same is true when looking at the most common bigrams. While stopwords were removed
 from the text, if I were to repeat the project I would consider weighting the frquency of words by the number of reviews they appear in to get around this finding 
 of the reviews being quite generic. Another point to note is that I was originally planning to doing sentiment analysis of the reviews using VaderSentiment in order to 
-see how many positive reviews properties got in each city. However, this method is about 75% accurate, so I decided that using the review score sata in the 'listings'
+see how many positive reviews properties got in each city. However, this method is about 75% accurate, so I decided that using the review score data in the 'listings'
 dataset would be simpler and produce more robust figures.
 
 One of the most informative results in the project comes from mapping the properties, with colour coding showing the price band that each property
@@ -42,9 +42,29 @@ a lot of data on each property - however many features are likely to be related 
 each value in the 'amentities' column the dataframe contains a variable called 'Pets live at this property' and another called 'dog(s)'. If a 
 pet lives a property there is a significant chance of it being a dog, meaning the variables are not independent of each other. This is an exampe of multicolinearity,
 which can cause linear models to give inaccurate results. To get around this I tried running several models and using Variance Inflation Factors
-to identify sources of multicolinearity. You will see the iteration of the model tat I ran in the notebook, gradually removing insignificant variables
+to identify sources of multicolinearity. You will see the iterations of the model that I ran in the notebook, gradually removing insignificant variables
 and sources of multicolinearity. Across all of these models there is a significant difference between properties in Seattle and Boston, of around $30.
 This suggests that around 40% of the price difference is to do with the attributes of properties in the two cities and 60% simply comes from the city they are in. 
+
+__File descriptions:__ The main files of interest for this project are:
+- 'Udacity Airbnb project.ipynb' which is the notebook containing the analysis. This can be found in the root of the directory
+- 'Project_1_Blog_Post.md' which contains the blog post. This can be found in the 'posts' folder.
+ 
+__Usage instructions:__ This project is simple to use. If you want to read the blog you only need to select the file in 'posts'. To run the notebook
+you will need to download the file to your machine. The datasets are publically available on Kaggle at the urls below:
+
+Seattle data-
+https://www.kaggle.com/datasets/airbnb/seattle
+
+Boston data-
+https://www.kaggle.com/datasets/airbnb/boston
+
+Once you have downloaded these, you will need to amend the cells where the data is read in, so that it reflects the file path on your machine.
+
+Because the analysis for each question is contained in the same notebook, once this is done all that you - the user - need to do is select 'run all' under the 'cell' tab.
+
+You will need to have Kaleidoscope installed if you want to use the Figure Factory for creating tables.
+You will also need to have nltk.punkt installed for the Natural Language Processing part of the project.
 
 __Packages used:__ There are quite a few packages used in this project.
 
@@ -74,29 +94,6 @@ These packages were used for the regression analysis:
 
 Finally, the package below is useful for export tables. Please note you will need kaleidoscope installed for this to work.
 - plotly.figure_factory
-
-
-__Usage instructions:__ This project is simple to use. If you want to read the blog you only need to select the file in 'posts'. To run the notebook
-you will need to download the file to your machine. The datasets are publically available on Kaggle at the urls below:
-
-Seattle data-
-https://www.kaggle.com/datasets/airbnb/seattle
-
-Boston data-
-https://www.kaggle.com/datasets/airbnb/boston
-
-Once you have downloaded these, you will need to amend the cells where the data is read in, so that it reflects the file path on your machine.
-
-Because the analysis for each question is contained in the same notebook, once this is done all that you - the user - need to do is select 'run all' under the 'cell' tab.
-
-As mentioned above, you will need to install Kaleidoscope if you want to use the Figure Factory for creating tables.
-You will also need to have nltk.punkt installed for the Natural Language Processing part of the project.
-
-__File descriptions:__ The main files of interest for this project are:
-- 'Udacity Airbnb project.ipynb' which is the notebook containing the analysis. This can be found in the root of the directory
-- 'Project_1_Blog_Post.md' which contains the blog post. This can be found in the 'posts' folder.
- 
-As noted previously, the data sets are available at the links above and can be saved to your own machine.
 
 __Contact information:__ The maintainer of this project is me - Laurence Durham - contactable at laurence.durham89@gmail.com
 
