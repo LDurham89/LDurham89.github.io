@@ -94,7 +94,8 @@ pet lives a property there is a significant chance of it being a dog, meaning th
 which can cause linear models to give inaccurate results. To get around this I tried running several models and using Variance Inflation Factors
 to identify sources of multicolinearity. You will see the iterations of the model that I ran in the notebook, gradually removing insignificant variables
 and sources of multicolinearity. Across all of these models there is a significant difference between properties in Seattle and Boston, of around $30.
-This suggests that around 40% of the price difference is to do with the attributes of properties in the two cities and 60% simply comes from the city they are in. 
+This suggests that around 40% of the price difference is to do with the attributes of properties in the two cities and 60% simply comes from the city they are in.
+However some caution should be taken when interpreting this finding as the listings data comes from two separate snapshots, takne at different times in the year for Seattle and Boston. This means that there could also be seasonal factors affecting the difference in average price between the two cities.
 
 
 __Contact information:__ The maintainer of this project is me - Laurence Durham - contactable at laurence.durham89@gmail.com
