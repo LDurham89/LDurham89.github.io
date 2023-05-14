@@ -15,8 +15,13 @@ The Jupyter notebook presents the analysis of the data to answer these questions
 for analysis, how new variables are made, visualisations made and analysis is conducted. The note book is organised so that you can see this process done separately 
 to answer each of the questions. The only caveat here is that Q1 is addressed in the same section as Q4, as the same data preprocessing was required for each.  
 
-__File descriptions:__ The main files of interest for this project are:
-- 'Udacity Airbnb project.ipynb' which is the notebook containing the analysis. This can be found in the root of the directory
+__File descriptions:__ 
+
+All files are available within this repository. If required the url is: https://github.com/LDurham89/LDurham89.github.io
+
+The main files of interest for this project are:
+- 'Udacity Airbnb project.ipynb' which is the notebook containing the analysis. This can be found in the root of the directory, or at this link:
+ https://github.com/LDurham89/LDurham89.github.io/blob/main/Udacity%20Airbnb%20project.ipynb
 - 'Project_1_Blog_Post.md' which contains the blog post. This can be found in the 'posts' folder or at the link below:
 https://github.com/LDurham89/LDurham89.github.io/blob/main/_posts/Project_1_Blog_Post.md
  
